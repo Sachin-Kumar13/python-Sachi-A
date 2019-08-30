@@ -1,8 +1,9 @@
 n = int(input())
 res =list(map(int,input().split()))
-
-
+lst=[]
 for i in res:
-    d=max(res.count(i))
-    print(d)
+    lst.append(res.count(i))
+
+print(max(lst))
+
 
